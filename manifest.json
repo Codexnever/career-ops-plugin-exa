@@ -1,0 +1,14 @@
+{
+  "id": "exa",
+  "name": "career-ops-plugin-exa",
+  "version": "0.1.1",
+  "apiVersion": 1,
+  "description": "Exa semantic web search for job discovery: finds postings and employers beyond your tracked portals, one query at a time.",
+  "hooks": ["search"],
+  "requiredEnv": ["EXA_API_KEY"],
+  "allowedHosts": ["api.exa.ai"],
+  "jobPostings": true,
+  "skill": "skill.md",
+  "humanInTheLoop": true,
+  "homepage": "https://github.com/Codexnever/career-ops-plugin-exa"
+}
